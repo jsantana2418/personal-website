@@ -1,3 +1,11 @@
+.progress-bar-padding {
+  padding-top: 3em;
+}
+
+@media (min-width: 1200px) {
+
+}
+
 .progress-bar1 {
   background-color: #C99065;
 }
@@ -32,6 +40,10 @@
 
 .bg-primary {
   background-color: #B5B3B4;
+}
+
+section.form-layout {
+  padding: 30px 0;
 }
 
 form {
