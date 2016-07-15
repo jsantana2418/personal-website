@@ -39,7 +39,29 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- reportcard badge -->
+    <link rel="stylesheet" href="js/reportcard/css/badges.css">
 </head>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Report Card</h4>
+      </div>
+      <div class="modal-body">
+        <div class="report-card treehouse"></div>
+        <div class="report-card codeschool"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
 
 <body id="page-top">
 
@@ -330,7 +352,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Check out my credentials!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+                <a href="" class="btn btn-default btn-xl sr-button" data-toggle="modal" data-target="#myModal">Click Me!</a>
             </div>
         </div>
     </aside>
@@ -423,7 +445,23 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+    <!-- reportcard -->
+    <script src="js/reportcard/js/reportcard.js"></script>
+    <script>
+          // Using reportcard.js with CodeSchool
+      $('.report-card.codeschool').reportCard({
+          userName: 'josesantana2418',
+          site: 'codeschool',
+          badgesAmount: 1
+      });
 
+      // Using reportcard.js with Treehouse
+      $('.report-card.treehouse').reportCard({
+          userName: 'josesantana3',
+          site: 'treehouse',
+          badgesAmount: 7
+      });
+</script>
 </body>
 
 </html>
