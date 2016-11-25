@@ -1,45 +1,73 @@
+.profile-img {
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/josesantana.jpg);
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.about-p {
+  font-size: 18px;
+}
+
 .progress-bar-padding {
     padding-top: 3em;
 }
+
 @media (min-width: 1200px) {}
+
 .progress-bar1 {
     background-color: #C99065;
 }
+
 .progress-bar2 {
     background-color: #C99065;
 }
+
 .progress-bar3 {
     background-color: #e1c285;
 }
+
 .progress-bar4 {
     background-color: #e1c285;
 }
+
 .progress-bar5 {
     background-color: #C99065;
 }
+
 .progress-bar6 {
     background-color: #C99065;
 }
+
 .progress-bar7 {
     background-color: #e1c285;
 }
+
 .progress-bar8 {
     background-color: #e1c285;
 }
+
 .bg-primary {
     background-color: #B4B2B3;
 }
+
 section#contact {
-  padding-bottom: 15px;
+    padding-bottom: 15px;
 }
+
 section.form-layout {
     padding: 15px 0;
 }
+
 form {
     max-width: 450px;
     margin: 0 auto 100px;
     padding: 0 20px;
 }
+
 form input, form textarea {
     border: 3px solid #e1c285;
     width: 100%;
@@ -52,17 +80,21 @@ form input, form textarea {
     appearance: none;
     font-size: 16px;
 }
+
 form input:focus, form textarea:focus {
     outline: none;
     border-color: #c99065;
 }
+
 form textarea {
     height: 10em;
     resize: none;
 }
+
 form .submit-wrap {
     text-align: right;
 }
+
 form [type="submit"] {
     background: #e1c285;
     color: white;
@@ -70,9 +102,11 @@ form [type="submit"] {
     text-transform: uppercase;
     width: 33%;
 }
+
 form [type="submit"]:hover {
     background: #c99065;
 }
+
 form .contact-info-group label {
     width: 50%;
     float: left;
@@ -80,19 +114,24 @@ form .contact-info-group label {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 form .contact-info-group label:nth-child(1) {
     padding-right: 10px;
 }
+
 form .contact-info-group label:nth-child(2) {
     padding-left: 10px;
 }
+
 form label {
     display: block;
     margin-bottom: 20px;
 }
+
 form label span {
     display: block;
 }
+
 @media (max-width: 541px) {
     form .contact-info-group label {
         width: 100%;
@@ -107,10 +146,12 @@ form label span {
         width: 100%;
     }
 }
+
 .form-success {
     background: #e5eaee;
     text-align: center;
 }
+
 .form-success p {
     font-size: 18px;
 }
