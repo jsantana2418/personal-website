@@ -28,6 +28,11 @@
     background-color: #222;
 }
 
+.LI-profile-badge {
+  display: flex;
+  justify-content: center;
+  margin: 2.5em auto;
+}
 
 /* button shadow */
 
