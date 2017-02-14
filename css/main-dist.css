@@ -29,9 +29,14 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
 }
 
+#homeHeading span {
+    color: #c99065;
+}
+
 .section-heading {
     font-size: 3em;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .homeSubHeading {
