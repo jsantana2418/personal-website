@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-p strong {
-    font-size: 24px;
+    font-size: 21px;
     color: rgba(201, 144, 101, 0.75);
 }
 
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 section#contact {
     padding-bottom: 15px;
 }
-
+/* FORM STYLES */
 section.form-layout {
     padding: 15px 0;
 }
@@ -319,9 +319,9 @@ form label span {
 .form-success p {
     font-size: 18px;
 }
+/* END OF FORM STYLES */
 
-
-/* page load */
+/* PAGE LOAD SPINNER */
 
 .pace {
     -webkit-pointer-events: none;
@@ -402,9 +402,17 @@ form label span {
         transform: rotate(359deg);
     }
 }
+/* END OF PAGE LOAD SPINNER */
 
+/* 768PX AND UP */
 
-/* 1200px and up */
+@media screen and (min-width: 768px) {
+  .navbar-default {
+    border-bottom: none;
+  }
+}
+
+/* 992px and up */
 
 @media screen and (min-width: 992px) {
     .about-container-one h2 {
