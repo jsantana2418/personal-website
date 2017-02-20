@@ -72,7 +72,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-h3-heading {
-    color: rgba(201, 144, 101, 0.9);
     font-size: 2.5em;
     font-weight: bold;
     text-transform: uppercase;
