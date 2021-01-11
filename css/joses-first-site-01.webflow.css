@@ -40,7 +40,7 @@ a {
   position: relative;
   height: auto;
   min-height: 100%;
-  padding-top: 200px;
+  padding-top: 300px;
   padding-bottom: 200px;
   background-image: -webkit-linear-gradient(300deg, #fff 10%, hsla(26, 48%, 59%, .9) 40%, #111 90%);
   background-image: linear-gradient(150deg, #fff 10%, hsla(26, 48%, 59%, .9) 40%, #111 90%);
